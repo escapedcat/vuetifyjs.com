@@ -742,5 +742,12 @@
       "customOrigin",
       { "file": "todo", "newIn": "1.2" }
     ]
+  },
+  "treeview": {
+    "components": ["v-treeview"],
+    "examples": [
+      "usage",
+      "fileExplorer"
+    ]
   }
 }

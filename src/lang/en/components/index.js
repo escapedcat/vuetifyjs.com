@@ -47,6 +47,7 @@ import TextFields from './TextFields'
 import TimePickers from './TimePickers'
 import Toolbars from './Toolbars'
 import Tooltips from './Tooltips'
+import Treeview from './Treeview'
 
 export default {
   Alerts,
@@ -97,5 +98,6 @@ export default {
   TextFields,
   TimePickers,
   Toolbars,
-  Tooltips
+  Tooltips,
+  Treeview
 }
