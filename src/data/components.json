@@ -747,7 +747,8 @@
     "components": ["v-treeview"],
     "examples": [
       "usage",
-      "fileExplorer"
+      "fileExplorer",
+      "country"
     ]
   }
 }
