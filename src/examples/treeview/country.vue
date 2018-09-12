@@ -7,10 +7,10 @@
       <v-treeview
         v-model="tree"
         :items="items"
+        activatable
         class="grow"
         item-key="name"
         expand-icon="mdi-chevron-down"
-        open-on-click
         selectable
         transition
       ></v-treeview>

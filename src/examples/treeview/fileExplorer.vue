@@ -3,11 +3,15 @@
     :open="open"
     :items="items"
     active-class="primary--text"
+    activatable
     item-key="name"
     open-on-click
   >
     <template slot="prepend" slot-scope="{ item, open }">
-      <v-icon v-if="!item.file">
+      <v-icon
+        v-if="!item.file"
+        :color="open ? 'primary' : ''"
+      >
         {{ open ? 'mdi-folder-open' : 'mdi-folder' }}
       </v-icon>
       <v-icon v-else>
