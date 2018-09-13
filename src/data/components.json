@@ -748,7 +748,8 @@
     "examples": [
       "usage",
       "fileExplorer",
-      "country"
+      "country",
+      "directory"
     ]
   }
 }
