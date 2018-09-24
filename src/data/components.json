@@ -746,7 +746,8 @@
   "windows": {
     "components": ["v-window"],
     "examples": [
-      "usage"
+      "usage",
+      "onboarding"
     ]
   }
 }
