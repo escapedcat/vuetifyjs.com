@@ -747,7 +747,8 @@
     "components": ["v-window"],
     "examples": [
       "usage",
-      "onboarding"
+      "onboarding",
+      "account"
     ]
   }
 }
