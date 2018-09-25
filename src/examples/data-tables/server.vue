@@ -52,15 +52,9 @@
               this.totalDesserts = data.total
             })
         },
-        deep: true
+        deep: true,
+        immediate: true
       }
-    },
-    mounted () {
-      this.getDataFromApi()
-        .then(data => {
-          this.desserts = data.items
-          this.totalDesserts = data.total
-        })
     },
     methods: {
       getDataFromApi () {
